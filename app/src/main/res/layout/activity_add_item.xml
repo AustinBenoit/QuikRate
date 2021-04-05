@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddItemActivity">
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:onClick="addButton"
+        android:text="Add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Beer" />
+
+    <EditText
+        android:id="@+id/Brewery"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:hint="Brewery Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/Beer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_new_beer_image" />
+
+    <EditText
+        android:id="@+id/Beer"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:hint="Beer Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/add_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Brewery"
+        app:layout_constraintVertical_bias="0.787" />
+
+    <ImageView
+        android:id="@+id/add_new_beer_image"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/test_beer"
+        android:onClick="newRatedItemPhotoButton"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
