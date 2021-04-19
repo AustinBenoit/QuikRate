@@ -1,2 +1,2 @@
 # QuikRate
-An Android app to sort and sort the beers I have tired.
+An Android app to sort and display the beers I have tired.
