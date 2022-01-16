@@ -4,11 +4,11 @@ An Android app to sort and display a set of items.
 # How it works
 The user can click the plus button to add a new item to the list.
 
-![Adding an item](/demo/newItem.png)
+![Adding an item](/demo/newItem.png width="300")
 
 The user can then take a photo and enter in important details.
 
-![](/demo/details.png)
+![Adding Details](/demo/details.png)
 
 Once all of the fields have been filled the user can drag and drop the 
 item to the desired location. 
